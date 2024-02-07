@@ -1,5 +1,5 @@
 <template>
-    <div class="col-span-5 lg:col-span-2 lg:col-start-2 col-start-1 flex items-center justify-center h-full">
+    <div class="col-span-5 lg:col-span-2 lg:col-start-2 col-start-1 flex items-center justify-center h-full bg-black">
       <Swiper ref="swiperRef" class="w-full bg-black">
         <SwiperSlide v-for="product in products" :key="product.id" class="flex items-center justify-center bg-black">
           <img
