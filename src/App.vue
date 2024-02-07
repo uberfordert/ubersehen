@@ -16,12 +16,12 @@ export default {
       productsData: [
         {
           id: 1,
-          imageUrl: require('./assets/ds-t1.png'),
+          imageUrl: require('./assets/ds-t1-mq.png'),
           alt: 'Ben & Ante'
         },
         {
           id: 2,
-          imageUrl: require('./assets/ds-t2.png'),
+          imageUrl: require('./assets/ds-t2-mq.png'),
           alt: 'Ante & Ben'
         }
       ],
