@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="bg-black">
     <SwiperGallery :products="productsData" />
   </div>
 </template>
