@@ -1,7 +1,7 @@
 <template>
-    <div class="col-span-5 lg:col-span-2 lg:col-start-2 col-start-1 flex items-center justify-center h-full bg-black">
-      <Swiper ref="swiperRef" class="w-full">
-        <SwiperSlide v-for="product in products" :key="product.id" class="flex items-center justify-center">
+    <div class="col-span-5 lg:col-span-2 lg:col-start-2 col-start-1 flex items-center justify-center h-full">
+      <Swiper ref="swiperRef" class="w-full bg-black">
+        <SwiperSlide v-for="product in products" :key="product.id" class="flex items-center justify-center bg-black">
           <img
             :src="product.imageUrl"
             :alt="product.alt"
